@@ -6,55 +6,87 @@
     <title>공지게시판</title>
     <style>
         thead{
-            border-top: 2px solid #efefef;
+            border-top: 3px solid #efefef;
             
         }
         table{
             border-spacing: 0px;
             border-collapse: collapse;
             margin: auto;
+            width: 892px;
+            height: 200px;
+        }
+        th{
+            height: 39px;
         }
         td{
             border-top: 1px solid #e8e8e8;
             border-bottom: 1px solid #e8e8e8;
+            height: 39px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        .col1{
+            width: 70px;
+        }
+        .col2{
+            width: 145px;
+        }
+        .col3{
+            width: 165px;
+        }
+        .col4{
+            width: 72px;
+        }
+        .col0{
+            border-bottom: 3px solid #efefef;
+        }
+        .col5{
+            text-align: left;
+        }
+        img{
+            width: 15px;
         }
     </style>
 </head>
 <body>
-    <h1><em>NOTICE</em></h1>
+    <h2><em>NOTICE</em></h2>
+    <br>
     <table>
         <thead>
             <tr>
-                <th>번호</th>
+                <th class="col1">번호</th>
                 <th>제목</th>
-                <th>작성자</th>
-                <th>작성일</th>
-                <th>조회수</th>
+                <th class="col2">작성자</th>
+                <th class="col3">작성일</th>
+                <th class="col4">조회수</th>
             </tr>
-            <tr>
+            <tr class="col0">
                 <td>[공지]</td>
-                <td>SMART WING에 오신걸 환영합니다. [1]</td>
+                <td class="col5">SMART WING에 오신걸 환영합니다. [1]</td>
                 <td>운영자</td>
                 <td>2017-09-22</td>
                 <td>109</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>새해 복 많이 받으세요! 설 맞이 연휴기간 배송일정 안내</td>
+                <td class="col5">새해 복 많이 받으세요! 설 맞이 연휴기간 배송일정 안내 <img src="./image/notice_memo.jpg" alt="메모아이콘"></td>
                 <td>운영자</td>
                 <td>2017-09-22</td>
                 <td>11</td>
             </tr>
-            <tr>
+            <tr class="col0">
                 <td>2</td>
-                <td>SMART WING 런칭 기념 이벤트</td>
+                <td class="col5">SMART WING 런칭 기념 이벤트 <img src="./image/notice_memo.jpg" alt="메모아이콘"></td>
                 <td>운영자</td>
                 <td>2017-09-22</td>
                 <td>11</td>
             </tr>
             <tr>
                 <td>1</td>
-                <td>SMART WING 신규 가입 혜택!</td>
+                <td class="col5">SMART WING 신규 가입 혜택! <img src="./image/notice_memo.jpg" alt="메모아이콘"></td>
                 <td>운영자</td>
                 <td>2017-09-22</td>
                 <td>12</td>
