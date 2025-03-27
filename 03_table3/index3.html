@@ -28,18 +28,7 @@
         h2{
             text-align: center;
         }
-        .col1{
-            width: 70px;
-        }
-        .col2{
-            width: 145px;
-        }
-        .col3{
-            width: 165px;
-        }
-        .col4{
-            width: 72px;
-        }
+       
         .col0{
             border-bottom: 3px solid #efefef;
         }
@@ -55,13 +44,19 @@
     <h2><em>NOTICE</em></h2>
     <br>
     <table>
+        <colgroup>
+            <col width="70">
+            <col width="">
+            <col width="145">
+            <col width="165">
+            <col width="72">
         <thead>
             <tr>
-                <th class="col1">번호</th>
+                <th>번호</th>
                 <th>제목</th>
-                <th class="col2">작성자</th>
-                <th class="col3">작성일</th>
-                <th class="col4">조회수</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>조회수</th>
             </tr>
         </thead>
             <tbody>
