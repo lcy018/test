@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표만들기(웹접근성코딩)</title>
+    <style>
+        table{
+            border: 1px solid #000;
+            border-spacing: 0cm;
+            border-collapse: collapse;
+            margin: auto;
+            width: 600px;
+        }
+        th{
+            border: 1px solid #000;
+            height: 30px;
+        }
+        td{
+            border: 1px solid #000;
+            text-align: center;
+            height: 35px;
+        }
+        caption{
+            text-align: left;
+            color: #ce0026;
+        }
+        thead{
+            background: #ffcc01;
+        }
+        tfoot{
+            background: #00ccff;
+        }
+        tbody{
+            background: #e4e4e4;
+        }
+        .col1{
+            background: #f2f2f2;
+        }
+       
+    </style>
+</head>
+<body>
+    <table>
+        <caption>학기별 성적표 테이블</caption>
+        <thead>
+            <tr>
+                <th>학 기</th>
+                <th>1 학기</th>                
+                <th>2 학기</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>점 수</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="col1">
+                <td>점 수</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>점 수</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="col1">
+                <td>점 수</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>점 수</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="col1">
+                <td>점 수</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>합 계</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
