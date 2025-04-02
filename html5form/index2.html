@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품주문서</title>
+    <style>
+        
+        legend{
+            color: #d0ab50;
+        }
+        p{ background: #eeeeee;
+            padding: 10px;
+        }
+        .in1{
+            width: 178px;
+            height: 25px;
+        }
+        button{
+            background: #000;
+            color: #fff;
+        }
+        fieldset{
+            border: 1px solid #d0ab50;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>개인정보</legend>
+            <p>
+            <label for="">이름 </label>
+            <input type="text" placeholder="여백없이 입력" class="in1" autofocus required>
+            </p>
+            <p>
+            <label for="">비밀번호 </label>
+            <input type="password" class="in1" placeholder="비밀번호를 입력하시오">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>배송지 정보</legend>
+            <p>
+            <label for="">주소 </label>
+            <input type="text" placeholder="경기도/김포시/장기동" class="in1">
+            </p>
+            <p>
+            <label for="">전화번호 </label>
+            <select name="" id="">
+                <option value="">010</option>
+                <option value="">011</option>
+                <option value="">012</option>
+            </select>
+            <input type="text" placeholder="1234" class="in1">
+            <input type="text" placeholder="5678" class="in1">
+        </p>
+        <p>
+            <label for="">메모 </label>
+            <textarea rows="2" cols="40"></textarea>
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend>주문 정보</legend>
+            <p>
+                <label for="">과태말라 안티구아 (100g) </label>
+                <input type="number" name="" id="numb" min="1" max="10" value="1"> 개
+            </p>
+            <p>
+                <label for="numb">인도네시아 만델링 (100g) </label>
+                <input type="number" name="" id="numb" min="1" max="10" value="1"> 개
+            </p>
+            <p>
+                <label for="numb">탐라는도다 (블렌딩) (100g) </label>
+                <input type="number" name="" id="numb" min="1" max="10" value="1"> 개
+            </p>
+            <p>
+                <label for="number"></label>
+                01<input type="checkbox" name="" id="number">
+                02<input type="checkbox" name="" id="number">
+                03<input type="checkbox" name="" id="number">
+                04<input type="checkbox" name="" id="number">
+            </p>
+            <p>
+                <label for="nb"></label>
+                r01 <input type="radio" name="num" id="nb">
+                r02 <input type="radio" name="num" id="nb">
+                r03 <input type="radio" name="num" id="nb">
+                r04 <input type="radio" name="num" id="nb">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>버튼모음</legend>
+            <p>
+                <button>주문하기</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
