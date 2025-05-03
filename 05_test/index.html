@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>필드셋</title>
+    <style>
+        fieldset{
+            width: 500px;
+            height: 200px;
+            margin: auto;
+        }
+        legend {
+            font-size: 18px;
+            color: violet;
+        }
+
+        span {
+            font-size: 20px;
+            color: deeppink;
+        }
+        li{
+            list-style: none;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>민우를 <span>사랑</span>하는 이유</legend>
+        <ul>
+            <li>
+                <label for="email">첫번째 이유:</label>
+                <input type="email" name="" id="email" placeholder="handsomeminu@naver.com"><br>
+
+            </li>
+            <li>
+                <label for="sh">두번째 이유:</label>
+                <input type="search" name="" id="sh" disabled placeholder="너라서 좋아">
+            </li>
+            <li>
+                <select name="" id="">그다음 이유:
+                    <option value="">잘 챙겨줘서</option>
+                    <option value="">날 사랑해줘서</option>
+                    <option value="">정이 생겨서</option>
+                    <option value="">목소리가 좋아서</option>
+                    <option value="">아몰라 그냥 설레</option>
+                </select>
+            </li>
+        </ul>
+    </fieldset>
+</body>
+
+</html>
